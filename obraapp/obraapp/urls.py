@@ -23,6 +23,8 @@ urlpatterns = [
     path('project/', include('project.urls', namespace='project')),
     path('stage/', include('stage.urls', namespace='stage')),
     path('employee/', include('employee.urls', namespace='employee')),
+    path('employeestage/', include('employeestage.urls', namespace='employeestage')),
+
 
 
 ]
