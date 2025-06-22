@@ -24,6 +24,8 @@ urlpatterns = [
     path('stage/', include('stage.urls', namespace='stage')),
     path('employee/', include('employee.urls', namespace='employee')),
     path('employeestage/', include('employeestage.urls', namespace='employeestage')),
+    path('supplier/', include('supplier.urls', namespace='supplier')),
+
 
 
 
