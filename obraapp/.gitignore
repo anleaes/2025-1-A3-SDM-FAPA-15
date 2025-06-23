@@ -1,3 +1,45 @@
-obraapp/__pycache__/*
-/apps/categories/__pycache__/*
-/apps/categories/migrations/*
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migrations
+apps/*/migrations/
+obraapp/apps/*/migrations/
+!apps/*/migrations/__init__.py
+
+# Virtual environment
+venv/
+env/
+.obraapp/
+*.env
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# SQLite database
+db.sqlite3
+
+# Static and media
+staticfiles/
+media/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Mac system files
+*.swp
+
+# Bytecode caches
+.venv/
